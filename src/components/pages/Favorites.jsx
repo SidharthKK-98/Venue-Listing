@@ -12,7 +12,7 @@ function Favorites() {
             :
             <div >
                 <div >
-                    <button className="rounded-md m-5 p-2 border bg-red-700 text-white" onClick={removeFromFavorites}>Remove Venues</button>
+                    <button className="rounded-md m-5 p-2 border bg-red-700 text-white shadow-md font-semibold cursor-pointer" onClick={removeFromFavorites}>Remove Venues</button>
                 </div>
                      <div className="flex flex-col justify-center items-center ">
                         {
